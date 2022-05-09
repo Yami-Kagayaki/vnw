@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  width: 100%;
+  background-color: #129799;
+  color: #f6f7f6;
+  padding: 1vw;
+}
+
+div.menu1 nav.menu1 ul.menu1 {
+  display: flex;
+  justify-content: center;
+}
+
+li.menu1 {
+  margin: 0 5vw;
+}
+
+div.beat {
+  display: flex;
+}
+
+div.beat-title {
+  width: 48vw;
+  height: 24vw;
+}
+
+h1 {
+  font-size: 4.74vw;
+  padding-top: 9.3vw;
+  color: #f7f7f7;
+}
+
+figure.beat {
+  width: 48vw;
+  height: 24vw;
+}
+
+figure.beat img {
+  width: 48vw;
+  height: 24vw;
+}
+
+div.menu2 nav.menu2 ul.menu2 {
+  display: flex;
+  justify-content: center;
+  margin: 0 20vw;
+  justify-content: space-around;
+}
+
+main {
+  padding: 1vw;
+  background-color: #ffa185;
+}
+
+section.texto h2 {
+  margin-top: 40px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+section.texto p {
+  margin-bottom: 70px;
+}
+
+.imgs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.imgs figure img {
+  display: block;
+  object-fit: cover;
+  width: 45vw;
+  height: 23.5vw;
+}
+
+.linha2 {
+  margin-top: 2vw;
+}
+
+a.preto {
+  color: black;
+}
+
+.vermais {
+  margin: 3vw;
+  text-align: center;
+}
+
+footer {
+  padding: 1vw;
+  background: #129799;
+  display: flex;
+  color: #f7f7f7;
+  justify-content: space-around;
+}
+
+.redes {
+  margin: 0 8vw;
+}
+.redes ul li a img {
+  height: 39.71px;
+  width: 39.71px;
+}
+.redes ul {
+  display: flex;
+}
+
+.menu2 {
+  padding-top: 1vw;
+}
+
+.menu2 ul {
+  display: flex;
+}
+
+.menu2 ul li {
+  margin: 0 5vw;
+}
+.menu2 {
+  margin-left: 0vw;
+}

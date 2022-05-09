@@ -1,0 +1,65 @@
+body {
+  background-color: #34623f;
+  margin: 0%;
+  padding: 0%;
+}
+
+header {
+  height: 150px;
+  background-color: #1e2f23;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+header h1 {
+  color: #b39c4d;
+  text-align: center;
+  margin-top: 0;
+}
+
+h2 {
+  color: lightgreen;
+  text-align: center;
+}
+
+.prato img {
+  max-width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.prato p {
+  color: #b39c4d;
+}
+
+ul li {
+  color: #b39c4d;
+}
+
+section {
+  margin: 0 20px 0 20px;
+}
+
+.alerta {
+  text-align: center;
+  color: red;
+  text-decoration: overline;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #1e2f23;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer img {
+  max-width: 70px;
+}
+
+footer p {
+  color: #b39c4d;
+}

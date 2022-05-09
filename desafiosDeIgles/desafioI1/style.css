@@ -1,0 +1,13 @@
+legend {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+label {
+  color: darkgreen;
+  display: block;
+}
+input {
+  margin-bottom: 20px;
+}

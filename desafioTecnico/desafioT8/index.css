@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  width: 100%;
+  display: inline;
+}
+.logo1 {
+  margin-left: 7%;
+  height: 60px;
+  display: inline;
+  transition: 3s all;
+}
+.logo1:hover {
+  opacity: 0.4;
+}
+h2 {
+  display: inline;
+  transition: 3s all;
+  vertical-align: center;
+}
+h2:hover {
+  color: red;
+  cursor: pointer;
+}
+ul {
+  display: inline;
+  margin-left: 140px;
+}
+li {
+  display: inline;
+  font-size: 18px;
+  margin-left: 2px;
+  transition: 3s all;
+  cursor: pointer;
+}
+li:hover {
+  color: red;
+}
+body {
+  background-image: url("./imgs/hell.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 102vh;
+}
+.images {
+  background-image: url("./imgs/the witcher.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 510px;
+  width: 400px;
+  object-fit: cover;
+  margin-left: 30%;
+  margin-top: %;
+}
+.wildhunt {
+  background-image: url("https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:3e5bdfff-8c40-42c0-8fd9-125ed8881d4e;revision=0?component_id=83989b9b-4c1b-4940-85ca-d667cd75cf88&api_key=CometServer1&access_token=1650949769_urn%3Aaaid%3Asc%3AUS%3A3e5bdfff-8c40-42c0-8fd9-125ed8881d4e%3Bpublic_7bec3d9c83ea1d2ce950e118292f6701ea8f9057");
+  background-repeat: no-repeat;
+  height: 130px;
+  margin-top: -300px;
+  margin-left: 366px;
+  background-size: contain;
+  object-fit: cover;
+}
+.assista {
+  width: 180px;
+  margin-left: 406px;
+  height: 35px;
+  background: linear-gradient(180deg, FireBrick, DarkRed, FireBrick);
+  font-size: 14px;
+  font-weight: bolder;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}

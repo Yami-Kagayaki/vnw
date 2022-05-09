@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UFT-8">
+  <title>Formulário</title>
+</head>
+
+<body>
+  <h1>Cadastro de DEVs</h1>
+
+  <form action="">
+    <fieldset>
+
+      <h2>Dados Pessoais</h2>
+
+      <label for="name"><strong>Nome: </strong></label>
+      <input id="name" type="text" name="name" placeholder="seu nome aqui" required />
+      <br><br>
+
+      <label for="email"><strong>Email: </strong></label>
+      <input id="email" type="text" name="email" placeholder="seuemail@dominio.com" required />
+      <br><br>
+
+      <label for="password"><strong>Senha: </strong></label>
+      <input id="password" type="password" name="password" placeholder="sua senha" required />
+      <br><br>
+
+      <label for="tel"><strong>Telefone: </strong></label>
+      <input id="tel" type="tel" name="telepone" placeholder="(XX)XXXXX-XXXX">
+      <br><br>
+
+      <label for="date"><strong>Data de Nascimento: </strong></label>
+      <input id="date" type="date" name="date" />
+
+      <hr />
+
+      <h2>Stack, Tecnologias e Senioridade</h2>
+
+      <!--Posso abrir assim-->
+      <label for="stack"><strong>De qual lado da aplicação você desenvolve?</strong></label>
+      <br>
+      <br>
+      <div>
+        <label>
+          <input type="radio" name="stack" value="frontend" checked>Front-end
+        </label>
+        <label>
+          <input type="radio" name="stack" value="backend">Back-end
+        </label>
+        <label>
+          <input type="radio" name="stack" value="fullstack">Fullstack
+        </label>
+      </div>
+      <br>
+      <label><strong>Selecione as tecnologias que utiliza:</strong></label>
+      <br>
+      <br>
+      <div>
+        <!--E assim -->
+        <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML" />
+        <label for="tecnologia1"> HTML</label>
+        <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS" />
+        <label for="tecnologia2"> CSS</label>
+        <input type="checkbox" id="tecnologia3" name="tecnologia3" value="JavaScript" />
+        <label for="tecnologia3"> JavaScript</label>
+        <input type="checkbox" id="tecnologia4" name="tecnologia4" value="PHP" />
+        <label for="tecnologia4"> PHP</label>
+        <input type="checkbox" id="tecnologia5" name="tecnologia5" value="C#" />
+        <label for="tecnologia5"> C#</label>
+        <input type="checkbox" id="tecnologia6" name="tecnologia6" value="Python" />
+        <label for="tecnologia6"> Python</label>
+        <input type="checkbox" id="tecnologia7" name="tecnologia7" value="Java">
+        <label for="tecnologia7"> Java</label>
+      </div>
+      <br>
+
+      <label for="senioridade"><strong>Senioridade: </strong></label>
+      <select id="senioridade" required>
+        <option selected disabled value="">Selecione</option>
+        <option>Júnior</option>
+        <option>Pleno</option>
+        <option>Sênior</option>
+      </select>
+      <hr />
+      <h2>Experiência</h2>
+
+      <label for="experiencia"><strong>Conte um pouco mais da sua experiência: </strong></label>
+      <div>
+        <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia" placeholder="Caso não possua, deixe em branco."></textarea>
+      </div>
+
+      <input type="submit" value="Enviar">
+    </fieldset>
+  </form>
+
+  <!--Notas do DEV:
+      *Sei que não deveria usar o br, mas né, é a vida!
+  -->
+</body>
+
+</html>
